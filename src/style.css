@@ -1,0 +1,13 @@
+.center {
+  text-align: center;
+}
+
+.section-queen {
+  display: flex;
+  justify-content: center;
+}
+
+#result {
+  font-size: 3em;
+  text-transform: capitalize;
+}

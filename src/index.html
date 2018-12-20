@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>8-reinas</title>
+</head>
+<body>
+  <header class="center">
+    <h1>ocho reninas</h1>
+    <h2>Instrucciones</h2>
+    <h3>Pon las posibles coordenadas de cada reina y presiona el boton para saber si esta combinación es posible.</h3>
+  </header>
+  <section class="section-queen">
+
+    <div class="center">
+      <p>Reina 1</p>
+      <input id = "rx1" type="number" min="1" max="8" placeholder="X">
+      <input id = "ry1" type="number" min="1" max="8" placeholder="Y">
+    
+      <p>Reina 2</p>
+      <input id = "rx2" type="number" min="1" max="8" placeholder="X">
+      <input id = "ry2" type="number" min="1" max="8" placeholder="Y">
+    
+      <p>Reina 3</p>
+      <input id = "rx3" type="number" min="1" max="8" placeholder="X">
+      <input id = "ry3" type="number" min="1" max="8" placeholder="Y">
+    
+      <p>Reina 4</p>
+      <input id = "rx4" type="number" min="1" max="8" placeholder="X">
+      <input id = "ry4" type="number" min="1" max="8" placeholder="Y">
+    </div>
+  
+    <div class="center">
+        <p>Reina 5</p>
+        <input id = "rx5" type="number" min="1" max="8" placeholder="X">
+        <input id = "ry5" type="number" min="1" max="8" placeholder="Y">
+      
+        <p>Reina 6</p>        
+        <input id = "rx6" type="number" min="1" max="8" placeholder="X">
+        <input id = "ry6" type="number" min="1" max="8" placeholder="Y">
+      
+        <p>Reina 7</p>
+        <input id = "rx7" type="number" min="1" max="8" placeholder="X">
+        <input id = "ry7" type="number" min="1" max="8" placeholder="Y">
+      
+        <p>Reina 8</p>
+        <input id = "rx8" type="number" min="1" max="8" placeholder="X">
+        <input id = "ry8" type="number" min="1" max="8" placeholder="Y">
+    </div>
+  </section>
+  <section class="center">
+    <button id="btn">Resolver</button>
+    <br>
+    <label id="result"></label>
+    <br>
+    <button id="btn-try-a">Prueba de nuevo</button>
+  </section>
+
+
+  <script src="./eight.js"></script>
+</body>
+</html>
