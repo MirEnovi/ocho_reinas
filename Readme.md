@@ -3,10 +3,10 @@
 
 ## Reto Ocho Reinas Descripción
 
-Esta es una palicación web que utiliza HTML, CSS y Javascript, que evalua mediante una funcion recursiva, ocho posiciones (x, y), que en un plano de ocho por ocho, no se repitan en la misma orizontal, vertical y diagonal.
+Está es una palicación web que utiliza HTML, CSS y Javascript, que evalua mediante una funcion recursiva, ocho posiciones (x, y), que en un plano de ocho por ocho, no se repitan en la misma orizontal, vertical y diagonal.
 Hay en total 96 formas de situar las reinas en el tablero de manera que ninguna de ellas ataque a las otras, 12 soluciones "fundamentales" en el sentido de que todas las demás pueden obtenerse a partir de éstas girando o reflejando el tablero.
 
-Para este proyecto se uso la logica de los siguientes videos y textos:
+Para este proyecto se usó la logica de los siguientes videos y textos:
 [El problema de las 1000 reinas. ¡Un millón de dólares en juego!](https://www.youtube.com/watch?v=WOZ4wDt-iYA).
 [problema de las 8 reinas o "N" reinas](https://www.youtube.com/watch?v=kORojPB_UyE).
 [Algorítmia - Tema 5. Backtracking. N-Reinas - Andrés Muñoz Ortega](https://www.youtube.com/watch?v=XQYGwKiqV3Y), (esta se usaría especialmente para generar todas las respuestas posibles, para proximos alcances).
